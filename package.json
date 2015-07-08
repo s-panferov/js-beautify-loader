@@ -1,0 +1,32 @@
+{
+  "name": "js-beautify-loader",
+  "version": "1.0.0",
+  "description": "js-beautify integration for webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/s-panferov/js-beautify-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "js-beautify"
+  ],
+  "author": "Stanislav Panferov <fnight.m@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s-panferov/js-beautify-loader/issues"
+  },
+  "homepage": "https://github.com/s-panferov/js-beautify-loader",
+  "dependencies": {
+    "js-beautify": "^1.5.10",
+    "jscs": "^1.13.1"
+  },
+  "devDependencies": {
+    "jscs": "^1.13.1",
+    "loader-utils": "^0.2.10",
+    "object-assign": "^3.0.0"
+  }
+}
